@@ -1,0 +1,204 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Times New Roman;}{\f2\fnil\fcharset0 Calibri;}{\f3\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\b\f0\fs40\lang9 SRS DOCUMENT OF CAB MANAGEMENT SYSTEM\par
+
+\pard\sa200\sl276\slmult1 INTRODUCTION\par
+
+\pard\sa200\sl276\slmult1\qj\b0\fs24\tab Online Cab Booking Management System is developed to manage all cab hiring work online. It useful for car booking agency that are specialized in Hiring cabs to customers. Using this system many cab-booking agencies are moving ahead to become a pioneer in the vehicle rental industry by completely focusing on customers. Using this system, it is very easy for customer to book a car online and cab-booking agency can also track their booking online. So, it is also very useful for car booking agency. It is an online system through which customers can view available cabs; register the cabs, view profile and book cabs. Mostly peoples use cab service for their daily transportations need. Cab booking agency can also check which car is free for booking and which cars are on booking at present time.\par
+\b\fs36 PROJECT SCOPE \par
+\b0\fs24\tab This project\rquote s aim is to automate the system, calculating the fare, selecting appropriate route, booking the cab, collecting all necessary information of the client and then serve the client. The data used by the system is stored in a database that will be the centre of all information held clients and employees and the base for the remainder of the process after the initial application has been made. This enables things to be simplified and considerably quickened, making the jobs of the people involved easier. It supports the current process but centralizes it and makes it possible for decisions to be made earlier and easier way.\par
+\b\fs36 EXISTING SYSTEM\b0\fs24\par
+\tab Existing Online Cab Booking project system requires lots of physical and mental efforts as cabs are booked manually on call. Many chances of human errors such as wrong entry of journey date, time and location are recorded manually in a register by an employee thereby increasing chances of misregistration. No clear communication among drivers, passengers and the office leading to a denial of service. Punctuality is not maintained and faster accessibility of cabs is not possible due to traffic and miscommunication issues. Level of sharing of information is weak. Customers suffer a lot in terms of comfort and safety.\par
+\b\fs36 PROPOSED SYSTEM\par
+\b0\fs24\tab The proposed Online Cab Booking project system ensures that the users can book the cab as per their requirements by logging on to the website. It allows users to book their cabs online, manage their bookings and cancel their bookings at any point of time. Regular updates are provided to the customer so that they are aware of their bookings, driver details, and booking status. The user can also drop in their suggestions or queries in the feedback form.\par
+\b\fs36 OBJECTIVES OF THE PROPOSED SYSTEM\par
+\b0\fs24\tab The aim of the proposed system is to address the limitations of the current system. The requirements for the system have been gathered from the defects recorded in the past and also based on the feedback from users of previous metrics tools. Following are the objectives of the proposed system:\b  \par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b0 Reach to geographically scattered clients. One of the important objectives of the online booking system is communicate with all the clients scattered geographically.\par
+{\pntext\f3\'B7\tab}Automate the process of booking. The system will reduce the time and effort of the clients and employees and automate the process of booking.\par
+{\pntext\f3\'B7\tab}Reduced manpower. Reduce the manpower needed to perform the booking and serving clients.\par
+{\pntext\f3\'B7\tab}Operational efficiency. Improve the operational efficiency by improving the quality of the process.\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs36 ACTORS\par
+\ulnone\b0\fs28 1. USER\par
+2. DRIVER\par
+3. ADMIN\par
+\b\fs36 FUNCTIONAL REQUIREMENTS\par
+1. USER\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\fs28 Provide registration to the new user\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\qj             The name field of the new user should not include any special characters or numbers.It should consist of min 3 letters and max of 25 letters.Also seperate fields can be provided for First name and Last name.It should be marked as mandatory field. The mobile number should exactly contain 10 digits also it should not start with zero or any other special characters and also with the country code.Validation required as OTP. Email Id should be Validated using OTP.User can select whether they need mobile number or email address to be the username. Also give place they are currently staying should be provided including pincode.Gender field can consist of a drop down menu to select the options from within it.Job designation and company name should be marked as mandatory.Company timing details can be given as 24hr timing system and should mention the working days.Password should consist of Min of 8 characters including uppercase,lowercase,special characters and numbers.Give an option to select the job role and also check it must contains in the given list(Customer, Driver).\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj  First  Name- Cannot  include any character or number,  required  min length (10), max length (20).\par
+{\pntext\f0 ii.\tab} \f1 Last name-\f0\lang1033  \f1\lang9 Cannot include any character or number, required min length (10) , max length (20)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Phone number-\f0\lang1033  \f1\lang9 Unique , maximum of 10 numbers + Country code\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iv.\tab}Email-\f0\lang1033  \f1\lang9 Unique, valid\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 v.\tab}Password -Required,\f0\lang1033  \f1\lang9 min length(8)\f0\lang1033  \f1\lang9 include\f0\lang1033  \f1\lang9 special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vi.\tab}DoB -date\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vii.\tab}Address -Min length(100)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b\fs28 Provide login facility to the user\b0\f2\fs22\par
+
+\pard\sa200\sl276\slmult1\qj\f0\fs24\tab The username should be the email id or mobile number of the user. The mobile number should not start with a zero or any special characters and also add the country code.Seperate dropdown menu can be given inorder to select for the user whether they have registered using mobile number or email id.Password should consist of min of 8 characters including uppercases, lowercases, special characters and numbers.Captcha should be provided containing  4-6 letters or numbers. Signup for the ones who have no account in the app. Forgot password field if the user type an incorrect password this option can be used to retain the account.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Phone number -Unique, maximum of 10 numbers +Country code.\par
+{\pntext\f0 ii.\tab}\f1 Email -Unique, valid\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Password -Required,\f0\lang1033  \f1\lang9 min\f0\lang1033  \f1\lang9 length(8) include\f0\lang1033  \f1\lang9 special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj  \b\fs28 Search available cabs \b0\f2\fs22\par
+
+\pard\sa200\sl276\slmult1\qj\b\f0\fs28  \tab\b0\fs24 The user should have the option to search the available cabs according to their pick-up location also check the location is valid or not. The available cabs filtered by the location. The user can see all the available cabs and their details and reviews.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Field- searching  field, with alphanumeric characters , min length(40).\par
+
+\pard\sa200\sl276\slmult1\qj\tab After  checking  the  number  of  cab  available  the  customers books a cab or number of cabs according to their requirements.\par
+
+\pard 
+{\pntext\f1 i.\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj\f1 Date -DD/MM/YYYY format\f0\lang1033 .\f1\lang9\par
+{\pntext\f1 ii.\tab}Time -HH:MM format\f0\lang1033 .\f1\lang9\par
+{\pntext\f1 iii.\tab}\f0\lang1033 P\f1\lang9 ick up location -alphanumeric characters , max length(40)\f0\lang1033 .\f1\lang9\par
+{\pntext\f1 iv.\tab}\f0\lang1033 D\f1\lang9 estination -alphanumeric characters , max length(40)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b\fs28 Make a cab booking\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs28\tab\b0\fs24 In this option, the user have the option to select which type of vechicle they wanted and also see rate.The user the fill the details like pick-up location, destination,time, date and payment details etc. The pick-up location type it manually or the current location and the pick-up location are same then it automatically fills it. The destination also give by the user. It should be valid. Also the time and date should be valid. Also give the payment options to the user online payment or offline payment. If the user select the online payment then the user have the option to fill the bank details. The bank account number should only have alphabets and numbers and also to the IFSC code, card number of their bank account etc. If the payment will be completed then an invioce send to the user ie., the payment is completed.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Credit / debit card -mandatory field , numeric characters , length(12).\par
+{\pntext\f0 ii.\tab}\f1 CVV -mandatory field ,numeric characters,length(3)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Amount -mandatory field ,numeric characters, max length(5)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iv.\tab}OTP -mandatory field ,numeric characters,length(3)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b\fs28 Check the status of cab\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs28             \b0\fs24 After booking the cab the user should have the option to check the status of the cab if the booking confirmed by the driver or not.\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b\fs28 Cancel the booked cab\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs28           \b0\fs24 The user should have the option to cancel the booked cab. Also give a reason why cancel the cab from the given options.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Reason -mandatory field , alphanumeric characters , max length(100).\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b\fs28 Refund the payment: \b0\fs24 If the user cancel the booked cab then the user get their money from the admin part within a proper time limit.\par
+{\pntext\f3\'B7\tab}\b\fs28 Feedback\fs24 : \b0 The user should be able to give a feedback and review about the service of driver and also about the vehicle.\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs32 2. DRIVER\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\fs28 Provide registration to the new driver\b0\fs24\par
+
+\pard\sa200\sl276\slmult1\qj\tab The name field of the new user should not include any special characters or numbers.It should consist of min 3 letters and max of 25 letters. Also seperate fields can be provided for First name and Last name.It should be marked as mandatory field. The mobile number should exactly contain 10 digits also it should not start with zero or any other special characters and also with the country code.Validation required as OTP. Email Id should be Validated using OTP.User can select whether they need mobile number or email address to be the username. Also give place they are currently staying should be provided including pincode. Gender field can consist of a drop down menu to select the options from within it.The driver should give his driver license and other details. Company timing details can be given as 24hr timing system and should mention the working days. Password should consist of Min of 8 characters including uppercase,lowercase,special characters and numbers. Give an option to select the job role and also check it must contains in the given list(Customer, Driver).\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj First  Name- Cannot  include any character or number,  required  min length (10), max length (20).\par
+{\pntext\f0 ii.\tab} \f1 Last name-\f0\lang1033  \f1\lang9 Cannot include any character or number, required min length (10) , max length (20)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Phone number-\f0\lang1033  \f1\lang9 Unique , maximum of 10 numbers + Country code\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iv.\tab}Email-\f0\lang1033  \f1\lang9 Unique, valid\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 v.\tab}Password -Required,\f0\lang1033  \f1\lang9 min length(8)\f0\lang1033  \f1\lang9 include\f0\lang1033  \f1\lang9 special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vi.\tab}DoB -date\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vii.\tab}Address -Min length(100)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b\fs32 Provide login facility to the driver\b0\f2\fs22\par
+
+\pard\sa200\sl276\slmult1\qj\f0\fs24 The username should be the email id or mobile number of the user. The mobile number should not start with a zero or any special characters and also have the country code.Seperate dropdown menu can be given inorder to select for the user whether they have registered using mobile number or email id. Password should consist of min of 8 characters including uppercases, lowercases, special characters and numbers.Captcha should be provided containing  4-6 letters or numbers. Signup for the ones who have no account in the app. Forgot password field if the user type an incorrect password this option can be used to retain the account.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Phone number- Unique,maximum of 10 numbers+Country code\par
+{\pntext\f0 ii.\tab}\f1 Email -Unique,valid\f0\lang1033  \lang9\par
+{\pntext\f0 iii.\tab}\f1 Password -Required,\f0\lang1033  \f1\lang9 min\f0\lang1033  \f1\lang9 length(8)include special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\lang9\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs32 Profile\b0\fs24\par
+In  this  page, the  driver  have  to  add  some details such  as  license  number, cab number , cab model, other than license some Id proof . The driver should have an option to edit or update their profile and have the fields like license number,cab number etc.\par
+
+\pard 
+{\pntext\f1 i.\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj\lang1033 L\f1\lang9 icense number -Unique , numeric characters ,length(12)\f0\lang1033 .\f1\lang9\par
+{\pntext\f1 ii.\tab}\f0\lang1033 C\f1\lang9 ab model -Required , min length(10), alphanumeric\f0\lang1033 .\lang9\par
+{\pntext\f1 iii.\tab}\lang1033 Cab number -Required , min length(10), alphanumeric.\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\b\fs28 View Bookings from the user\b0\par
+
+\pard\sa200\sl276\slmult1\qj\fs24 The driver have the option to see his cab bookings and have an option to accept or reject the booking. \par
+\b\fs32 3. ADMIN\par
+\fs28   Provide login facility to the admin\par
+\b0\fs24 The username should be the email id or mobile number of the user. The mobile number should not start with a zero or any special characters with the country code. Seperate dropdown menu can be given inorder to select for the user whether they have registered using mobile number or email id. Password should consist of min of 8 characters including uppercases, lowercases, special characters and numbers.Captcha should be provided containing  4-6 letters or numbers. \par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj Phone number- Unique,maximum of 10 numbers+Country code\par
+{\pntext\f0 ii.\tab}\f1 Email -Unique,valid\f0\lang1033  \lang9\par
+{\pntext\f0 iii.\tab}\f1 Password -Required,\f0\lang1033  \f1\lang9 min\f0\lang1033  \f1\lang9 length(8)include special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\lang9\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs28 TASKS BY ADMIN\b0\fs24\par
+The admin will manage all bookings from the customers. The admin have an option to see all the bookings. Also the admin should have the option to accept or reject the bookings.Also should able to see the pick-up location, destination, payment, date and time etc. Check the payment of the customer is complete or not if it is completed then send an invoice to the customer. Admin Should able to see all available cabs. Admin should able to accept or reject new drivers.\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj Admin  can  view  the customer feedback and customer details  such as :\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj First  Name- Cannot  include any character or number,  required  min length (10), max length (20).\par
+{\pntext\f0 ii.\tab} \f1 Last name-\f0\lang1033  \f1\lang9 Cannot include any character or number, required min length (10) , max length (20)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Phone number-\f0\lang1033  \f1\lang9 Unique , maximum of 10 numbers + Country code\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iv.\tab}Email-\f0\lang1033  \f1\lang9 Unique, valid\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 v.\tab}Password -Required,\f0\lang1033  \f1\lang9 min length(8)\f0\lang1033  \f1\lang9 include\f0\lang1033  \f1\lang9 special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vi.\tab}DoB -date\f0\lang1033 .\lang9\par
+{\pntext\f0 vii.\tab}\f1 Address -Min length(100)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj Admin should able to accept or reject new drivers and view the details of new drivers such as:\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj First  Name- Cannot  include any character or number,  required  min length (10), max length (20).\par
+{\pntext\f0 ii.\tab} \f1 Last name-\f0\lang1033  \f1\lang9 Cannot include any character or number, required min length (10) , max length (20)\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iii.\tab}Phone number-\f0\lang1033  \f1\lang9 Unique , maximum of 10 numbers + Country code\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 iv.\tab}Email-\f0\lang1033  \f1\lang9 Unique, valid\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 v.\tab}Password -Required,\f0\lang1033  \f1\lang9 min length(8)\f0\lang1033  \f1\lang9 include\f0\lang1033  \f1\lang9 special\f0\lang1033  \f1\lang9 characters, uppercases , lowercases and number\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vi.\tab}DoB -date\f0\lang1033 .\f1\lang9\par
+{\pntext\f0 vii.\tab}Address -Min length(100)\f0\lang1033 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\lang1033 See all the booking\par
+
+\pard\sa200\sl276\slmult1\qj In  this  page, admin  can  search  the  booking  in  daily  or  weekly  based on the  date and time .\par
+
+\pard 
+{\pntext\f1 i.\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj\f1 Date -DD/MM/YYYY format\f0 .\f1\par
+{\pntext\f1 ii.\tab}Time -HH:MM format\f0 .\lang9\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\lang1033 View all profile informations\lang9\par
+
+\pard\sa200\sl276\slmult1\qj\lang1033       In  this  page, admin  can  see all profile informations of all drivers and customers.\lang9\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs40 Non- Functional Requirements\b0\fs24\par
+\b\fs32 Safety Requirements\b0\fs24\par
+If there is extensive damage to a wide portion of the database, such as a disk crash, the recovery method restores a past copy of the database that was backed up to archival storage (typically tape) and reconstructs a more current state by reapplying or redoing the operations of committed transactions from the backed up log, up to the time of failure.\par
+\b\fs32 Security Requirements\par
+\b0\fs24 Security systems need database storage just like many other applications. However, the special requirements of the security market mean that vendors must choose their database partner carefully.\par
+\b\fs36 CONCLUSION\par
+\b0\fs24 Cabs management system is a very effective, efficient, reliable and economic web application from all aspects. It fulfills all the current needs of a client when it comes to car rental services. The proposed project is very flexible, so new features and modules can be added in the future as per user requirements.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\b\fs32\par
+\par
+\b0\fs24\par
+\b\fs28        \b0\fs24\par
+\par
+\f2\fs22\par
+}
+ 
